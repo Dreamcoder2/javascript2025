@@ -1,18 +1,30 @@
-// LET , CONST , WAR
+// BASIC OPERATOR
 
-// let mutable
-let age = 30;
-age = 31;
+let birthYear = 2025;
 
-// const
+const agepraveen = birthYear - 1991;
+console.log(agepraveen);
 
-const birthYear = 1991;
+console.log(birthYear * 2, birthYear / 10, 2 ** 3);
 
-//const need intializer
+// concatinate string
 
-// var old way to declare the variables
-var job = "programmer";
-job = "teacher";
+const firstName = "jonas";
+const lastName = "man";
+console.log(firstName + lastName);
 
-// can do without mention the variable type
-lastname = "praveen";
+// Assignment Operator
+
+let x = 10 + 5;
+console.log(x);
+
+x += 10; // x = x + 10 ;
+x *= 4;
+x++; // x = x + 1;
+x--;
+
+console.log(x);
+
+// comparsion operator
+
+console.log(agepraveen > birthYear); // >,<,>=,<=
