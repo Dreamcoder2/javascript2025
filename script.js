@@ -1,14 +1,18 @@
-// Dynamic typing
+// LET , CONST , WAR
 
-let javaScript = true;
+// let mutable
+let age = 30;
+age = 31;
 
-javaScript = "yes";
+// const
 
-// I can change the variable easily
+const birthYear = 1991;
 
-// undefined variable and assign value
-let kid;
-kid = "mohith";
+//const need intializer
 
-// type of operator
-console.log(typeof kid);
+// var old way to declare the variables
+var job = "programmer";
+job = "teacher";
+
+// can do without mention the variable type
+lastname = "praveen";
