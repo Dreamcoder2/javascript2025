@@ -1,15 +1,9 @@
-// TYPE CONVERSION AND CORRECTION
+// TRUTHY AND FALSE VALUES
 
-// TYPE CONVERSION
+// 5 FALSE VALUE : 0,'' , UNDEFINED , NULL , NaN
 
-const inputYear = "1991";
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
-
-console.log(Number("praveen"));
-console.log(String(23));
-
-// TYPE CORRECTION
-console.log("i am " + 23 + "years old");
-// no need to write string(23) there
-console.log("23" - "10" - 3);
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("praveen"));
+console.log(Boolean({}));
+console.log(Boolean(""));
