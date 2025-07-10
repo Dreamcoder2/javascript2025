@@ -1,10 +1,15 @@
-// IF ELSE STATEMENTS
+// TYPE CONVERSION AND CORRECTION
 
-const age = 19;
-const isEnough = age >= 18;
+// TYPE CONVERSION
 
-if (isEnough) {
-  console.log("can start driving");
-} else {
-  console.log("cannot drivve");
-}
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number("praveen"));
+console.log(String(23));
+
+// TYPE CORRECTION
+console.log("i am " + 23 + "years old");
+// no need to write string(23) there
+console.log("23" - "10" - 3);
