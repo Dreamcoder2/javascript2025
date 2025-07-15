@@ -1,26 +1,11 @@
-// EQUALITY OPERATORS
+// And or operator example
 
-const age = 18;
+const hasDriverLicense = true;
+const hasGoodVision = true;
+const isTired = true;
 
-if (age === 18) console.log("You are a adult");
-
-// == DO TYPE CORRECTION
-const age1 = "18";
-
-if (age1 == 18) console.log("you are reached");
-
-// ELSE IF
-
-const favourite = 9;
-
-if (favourite === 8) {
-  console.log("not my fav");
-} else if (favourite === 9) {
-  console.log("fav number");
+if (hasDriverLicense && hasGoodVision && !isTired) {
+  console.log("sara can drive");
 } else {
-  console.log("no fav number");
+  console.log("someone should drive");
 }
-
-// Not or opposite
-
-if (favourite !== 8) console.log("why not 9");
