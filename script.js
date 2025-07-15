@@ -1,11 +1,14 @@
-// And or operator example
+// SWITCH STATEMENT
 
-const hasDriverLicense = true;
-const hasGoodVision = true;
-const isTired = true;
+const day = "monday";
 
-if (hasDriverLicense && hasGoodVision && !isTired) {
-  console.log("sara can drive");
-} else {
-  console.log("someone should drive");
+switch (day) {
+  case "monday":
+    console.log("going office");
+    break;
+  case "tuesday":
+    console.log("again going office");
+    break;
+  default:
+    console.log("not a valid day");
 }
