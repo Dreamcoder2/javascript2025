@@ -1,12 +1,10 @@
-// CONDITIONAL OPERATOR
+"use strict";
 
-const age = 23;
-age >= 18
-  ? console.log("i like to drink wine")
-  : console.log("i like to derik water");
+let hasDriversLicense = false;
+const passTest = true;
 
-const drink = age >= 18 ? "wine" : "water";
-console.log(drink);
+if (passTest) hasDriversLicense = true;
+if (hasDriversLicense) console.log("mohit can drive a car");
 
-// using in result as a expression
-console.log(`i like to drink ${age >= 18 ? "wine" : "water"}`);
+const interface = "audio";
+const private = 534;
